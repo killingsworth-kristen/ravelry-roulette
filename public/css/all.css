@@ -1,0 +1,49 @@
+* {
+    --rav-dark-background: #191c27;
+    --rav-logo-text: aqua;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--rav-dark-background);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: var(--rav-logo-text);
+}
+
+/* Nav specific */
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+    border-bottom: solid 2px var(--rav-logo-text);
+}
+
+.nav-link:hover {
+    color: var(--rav-logo-text);
+}
+
+/* footer */
+footer {
+    margin-top: auto;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+
